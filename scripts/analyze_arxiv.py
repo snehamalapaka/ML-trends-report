@@ -21,7 +21,7 @@ print("🔍 Top 10 keywords in titles:")
 for word, count in word_counts.most_common(10):
     print(f"{word}: {count}")
 
-# Generate a word cloud
+# Generating  word cloud
 wordcloud = WordCloud(width=800, height=400, background_color='white').generate(' '.join(filtered_words))
 plt.figure(figsize=(12, 6))
 plt.imshow(wordcloud, interpolation='bilinear')
