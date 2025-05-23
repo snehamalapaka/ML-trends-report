@@ -7,7 +7,7 @@ query = 'cat:cs.LG OR cat:cs.AI OR cat:stat.ML'
 today = datetime.today()
 last_week = today - timedelta(days=7)
 
-# Search latest papers
+
 search = arxiv.Search(
     query=query,
     max_results=50,
@@ -24,7 +24,7 @@ for result in search.results():
         "url": result.entry_id
     })
 
-# Save to CSV
+
 df = pd.DataFrame(papers)
 df.to_csv('data/arxiv_papers.csv', index=False)
 print(" Saved latest Arxiv papers to data/arxiv_papers.csv")
