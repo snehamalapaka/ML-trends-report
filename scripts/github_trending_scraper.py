@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-# GitHub trending ML repositories URL
+
 url = 'https://github.com/trending?since=daily&spoken_language_code=en'
 
 response = requests.get(url)
@@ -34,7 +34,7 @@ for repo in soup.find_all('article', class_='Box-row'):
             'url': repo_url
         })
 
-# Save to CSV
+
 df = pd.DataFrame(repos)
 df.to_csv('data/github_trending_ml.csv', index=False)
 print(f"Saved {len(repos)} GitHub trending ML repos to data/github_trending_ml.csv")
