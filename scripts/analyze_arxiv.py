@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import re
 
-# Load the dataset
+
 df = pd.read_csv('data/arxiv_papers.csv')
 
-# Combine all titles for keyword analysis
+
 text = ' '.join(df['title'].dropna()).lower()
 
 # Remove special characters and tokenize
