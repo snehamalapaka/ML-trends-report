@@ -1,0 +1,6 @@
+repo_name,description,stars,url
+microsoft/qlib,"Qlib is an AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms. including supervised learning, market dynamics modeling, and RL.","19,880",https://github.com/microsoft/qlib
+f/awesome-chatgpt-prompts,This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.,"126,245",https://github.com/f/awesome-chatgpt-prompts
+pathwaycom/pathway,"Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.","25,351",https://github.com/pathwaycom/pathway
+huggingface/transformers,"🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.","144,691",https://github.com/huggingface/transformers
+huggingface/diffusers,"🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch and FLAX.","29,074",https://github.com/huggingface/diffusers
